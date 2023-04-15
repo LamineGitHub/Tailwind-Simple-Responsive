@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-card {
+  @apply cursor-pointer hover:scale-105 transition-transform duration-300 aspect-[3/2];
+}
+
+.card {
+  @apply w-[300px] bg-white shadow-lg rounded-lg text-[#15133d] overflow-hidden;
+}
+
+.card-title {
+  @apply mb-2.5 mt-0.5 font-semibold text-xl;
+}
+
+.card-text {
+  @apply text-sm text-slate-500;
+}
+
+
+.card-link {
+  @apply focus:outline-none bg-indigo-600 text-white p-2 rounded-md font-medium tracking-wider hover:shadow-lg hover:bg-indigo-800 shadow-indigo-700 focus:ring focus:ring-indigo-600 focus:ring-offset-1 transition;
+}

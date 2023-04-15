@@ -1,0 +1,16 @@
+{
+  "name": "taillwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/style/input.css -o ./src/style/output.css --watch",
+    "build": "npx tailwindcss -i ./src/style/input.css -o ./src/style/output.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
